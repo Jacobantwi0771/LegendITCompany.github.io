@@ -1,0 +1,1398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+}
+.top{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    height: 65px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top .logo{
+    align-self: flex-start;
+}
+.top .logo h2{
+    color: rgb(237, 237, 202);
+    margin-top: 7px;
+    border-top: 2px solid  rgb(237, 237, 202);
+    border-bottom: 2px solid  rgb(237, 237, 202);
+    font-size: 22px;
+}
+.login ul{
+    display: flex;
+    flex-direction: row;
+}
+.login ul li{
+    list-style-type: none;
+    margin: 15px;
+    padding-left: 20px;
+}
+.login ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.login ul .dash a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: .3s;
+}
+.nav-icon{
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+section{
+    color: white;
+  text-align: center;
+    background: url('hero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .hero h2{
+  margin-top: 80px;
+  font-size: 40px;
+}
+section .hero p{
+    color:wheat;
+    font-size: 20px;
+ line-height: 1.5;
+}
+section .hero .call{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+  padding: 7px;
+}
+section .hero .call:hover{
+    color: white;
+    background-color: red;
+}
+.container{
+    padding: 30px ;
+    background-color: rgb(23, 23, 126);
+    color: white;
+    max-width: 100%;
+    min-width: 360px;
+    height: 93vh;
+}
+.container .cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 95px;
+   margin-top: 5%;
+}
+.container .about {
+    align-content: center;
+}
+.container .about p{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.container .about button{
+    margin-top: 10px;
+    margin-bottom:13px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+  padding: 7px;
+}
+.container .about button:hover{
+    color: white;
+    background-color: red;
+}
+.container .photo{
+    margin-left: 30px;
+    width: 400px;
+    margin-top: 20px;
+}
+.container .photo img{
+    height:300px; 
+   width: 100%;
+    border: none;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    max-width: 100%;
+    min-width: 360px;
+}
+.wrapper .wrapper-1{
+    background-color: rgb(245, 243, 240);
+    height: 450px;
+    width: 310px;
+    margin: 30px 4px 30px 28.8px;
+}
+.wrapper .wrapper-1 img{
+    height: 250px;
+    width: 310px;
+    margin-bottom: 15px;
+}
+.wrapper .wrapper-1 h4{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.wrapper .wrapper-1 p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+.wrapper .wrapper-1 button{
+    margin-top: 20px;
+    margin-bottom:13px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+  padding: 7px;
+  
+}
+.wrapper .wrapper-1 button:hover{
+    color: white;
+    background-color: red;
+}
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 49, 215);
+    max-width: 100%;
+    min-width: 360px;
+    height: 60vh;
+}
+.words p{
+    padding: 10px 10px 10px 10px;
+    line-height: 1.9;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 60%;
+}
+.big-box{
+    padding-bottom: 30px;
+    max-width: 100%;
+    min-width: 360px;
+}
+.box-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 105px;
+}
+.big-box .box{
+    margin: 17px;
+}
+.box-1 .box img{
+    height: 250px;
+    width: 310px;
+}
+.big-box h2{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 2%;
+}
+.big-box a {
+    margin-top: 30px;
+    margin-left: 120px;
+    padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+.big-box a i{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(23, 23, 126);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    min-width: 360px;
+}
+.form .end{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 115px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.form .end h3{
+    font-size: 25px;
+}
+.form .fill-in{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 114px;
+    padding-top: 20px;
+}
+.form .fill-in label{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.form .fill-in input{
+    font-size: 18px;
+    height: 30px;
+    width: 400px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(32, 32, 121);
+    border: 1px solid rgb(24, 150, 179);
+}
+.form .fill-in .open{
+    height: 150px;
+    width: 400px;
+}
+.form .fill-in .click{
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    background-color: blue;
+}
+.form .fill-in .click:hover{
+    color: white;
+    background-color: red;
+}
+.footer{
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    max-width: 100%;
+    min-width: 360px;
+}
+.footer .logo-2 h2{
+    color: rgb(237, 237, 202);
+    margin-top: 3px;
+    border-top: 2px solid  rgb(237, 237, 202);
+    border-bottom: 2px solid  rgb(237, 237, 202);
+    font-size: 22px;
+}
+.footer .mid{
+    color: white;
+    margin: 10px;
+}
+.footer .mid a{
+    text-decoration: none;
+    color: white;
+}
+.footer .mid a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.footer .last a i{
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (min-width: 1280px) {
+    .top{
+        width: 100%;
+    }
+        .top .logo h2{
+            font-size: 20px;
+        }
+        .top .login li a{
+            font-size: 18px;
+        }
+    section{
+        width: 100%;
+    }
+.container{
+width: 100%;
+height: 80vh;
+}
+.container .cont .photo {
+  width: 350px;
+}
+.container .cont .photo img{
+   width: 100%;
+}
+.wrapper {
+padding-top: 5%;
+padding-bottom: 5%;
+width: 100%;
+margin-left: 0%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.wrapper .wrapper-1{
+width: 300px;
+margin: 20px;
+}
+.wrapper .wrapper-1 img{
+width: 100%;
+}
+.words{
+    width: 100%;
+    height: 60vh;
+}
+.words p{
+   font-size: 18px;
+   width: 80%;
+}
+.big-box{
+width: 100%;
+padding-top: 2%;
+}
+.big-box h2{
+text-align: center;
+margin-right: 15%;
+font-size: 23px;
+}
+.big-box a{
+font-size: 23px;
+margin-left: 11.5%;
+}
+.big-box .box-1{
+margin-left: 0%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.box-1 .box img{
+height: 250px;
+width: 300px;
+margin: 4px;
+}
+.footer{
+width: 100%;
+height: 12vh;
+}
+.footer .logo-2 h2{
+font-size: 20px;
+margin-top: 5px;
+}
+.footer .mid p{
+margin-top: 10px;
+font-size: 15px;
+}
+.footer .mid a{
+margin-left: 24%;
+font-size: 15px;
+}
+.footer .last a i{
+ font-size: 17px;
+ margin: 2px 10px 5px 10px;
+}
+}
+@media screen and (max-width: 1200px) {
+    section{
+        width: 100%;
+    }
+   .container{
+    width: 100%;
+    height: 75vh;
+   }
+   .wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .wrapper .wrapper-1{
+    width: 380px;
+    margin: 30px;
+ }
+ .wrapper .wrapper-1 img{
+    width: 100%;
+ }
+ .big-box{
+    width: 100%;
+    padding-top: 2%;
+ }
+ .big-box h2{
+   text-align: center;
+   margin-right: 15%;
+    font-size: 35px;
+ }
+ .big-box a{
+    font-size: 30px;
+    margin-left: 16.5%;
+ }
+ .big-box .box-1{
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .box-1 .box img{
+    height: 300px;
+    width: 380px;
+    margin: 8px;
+}
+.footer{
+    width: 100%;
+    height: 12vh;
+ }
+ .footer .logo-2 h2{
+    font-size: 26px;
+    margin-top: 5px;
+ }
+ .footer .mid a,p{
+    font-size: 18px;
+ }
+ .footer .mid p{
+    margin-top: 10px;
+ }
+ .footer .mid a{
+  margin-left: 24%;
+ }
+ .footer .last a i{
+     font-size: 20px;
+     margin: 2px 10px 5px 10px;
+ }
+}
+@media screen and (max-width:1024px){
+    section{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .cont .about h2{
+        font-size: 30px;
+    }
+    .cont .about p{
+        font-size: 20px;
+    }
+    .cont .about{
+        margin-left: 5%;
+    }
+    .container .photo {
+        width: 450px;
+        margin-top: 0%;
+        margin-right: 11%;
+        margin-left: 0%;
+     }
+     .container .photo img{
+        width: 100%;
+        height: 350px;
+     }
+     .wrapper {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+     }
+     .wrapper .wrapper-1{
+        width: 350px;
+        margin: 22px;
+     }
+     .wrapper .wrapper-1 img{
+        width: 100%;
+     }
+     .words{
+        width: 100%;
+        height: 45vh;
+     }
+     .words p{
+        width: 70%;
+        font-size: 22px;
+     }
+     .big-box{
+        width: 100%;
+        padding-top: 2%;
+     }
+     .big-box h2{
+       text-align: center;
+       margin-right: 20%;
+        font-size: 35px;
+     }
+     .big-box a{
+        font-size: 30px;
+        margin-left: 11%;
+     }
+     .big-box .box-1{
+        margin-left: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+     }
+     .box-1 .box img{
+        height: 250px;
+        width: 350px;
+        margin: 2px;
+    }
+    .form{
+        width: 100%;
+      }
+      .form .end{
+         margin-left: 19.8%;
+      }
+      .form .end h3{
+        font-size: 30px;
+        margin-bottom: 2%;
+      }
+      .form .end p{
+        font-size: 22px;
+        line-height: 1.5;
+      }
+      .form .fill-in{
+         margin-left: 20%;
+      }
+     .form .fill-in input{
+         width: 540px;
+         height: 50px;
+         font-size: 25px;
+     }
+     .form .fill-in label{
+         font-size: 26px;
+     }
+     .form .fill-in .open{
+         width: 540px;
+         height: 200px;
+     }
+     .form .fill-in .click{
+         width: 150px;
+         font-size: 24px;
+     }
+     .footer{
+        width: 100%;
+        height: 10vh;
+     }
+     .footer .logo-2 h2{
+        font-size: 26px;
+        margin-top: 5px;
+     }
+     .footer .mid a,p{
+        font-size: 18px;
+     }
+     .footer .mid p{
+        margin-top: 10px;
+     }
+     .footer .mid a{
+      margin-left: 24%;
+     }
+     .footer .last a i{
+         font-size: 20px;
+         margin: 2px 10px 5px 10px;
+     }
+}
+@media screen and (max-width: 850px){
+    .top{
+        width: 100%;
+        height: 80px;
+    }
+    .top .logo{
+        margin-top: 5px;
+    }
+    .top .logo h2{
+        font-size: 26px;
+    }
+    .top .login li a{
+        font-size: 26px;
+    }
+    section{
+        width: 100%;
+    }
+    section .hero h2{
+        font-size: 50px;
+    }
+    section .hero p{
+        font-size: 30px;
+    }
+    section .hero .call{
+        font-size: 27px;
+    }
+  .container{
+    width: 100%;
+    height: 95vh;
+  }
+  .cont .about{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.cont .about h2{
+    font-size: 40px;
+}
+.cont .about p{
+    font-size: 23px;
+}
+.container .photo {
+    width: 500px;
+    margin-top: 0%;
+    margin-right: 17%;
+    margin-left: 0%;
+ }
+ .container .photo img{
+    width: 100%;
+    height: 350px;
+ }
+ .wrapper {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .wrapper .wrapper-1{
+    width: 350px;
+    margin: 22px;
+ }
+ .wrapper .wrapper-1 img{
+    width: 100%;
+ }
+.words{
+    height: 50vh;
+}
+.words p{
+    font-size: 25px;
+    width: 70%;
+}
+.big-box{
+    width: 100%;
+    padding-top: 2%;
+ }
+ .big-box h2{
+   text-align: center;
+   margin-right: 20%;
+    font-size: 35px;
+ }
+ .big-box a{
+    font-size: 30px;
+    margin-left: 10%;
+ }
+ .big-box .box-1{
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .box-1 .box img{
+    height: 250px;
+    width: 350px;
+    margin: 2px;
+}
+.form{
+    width: 100%;
+  }
+  .form .end{
+     margin-left: 20%;
+  }
+  .form .end h3{
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
+  .form .end p{
+    font-size: 22px;
+  }
+  .form .fill-in{
+     margin-left: 20%;
+  }
+ .form .fill-in input{
+     width: 500px;
+     height: 50px;
+     font-size: 25px;
+ }
+ .form .fill-in label{
+     font-size: 26px;
+ }
+ .form .fill-in .open{
+     width: 500px;
+     height: 200px;
+ }
+ .form .fill-in .click{
+     width: 150px;
+     font-size: 24px;
+ }
+ .footer{
+    width: 100%;
+    height: 10vh;
+ }
+ .footer .logo-2 h2{
+    font-size: 26px;
+    margin-top: 5px;
+ }
+ .footer .mid a,p{
+    font-size: 18px;
+ }
+ .footer .mid p{
+    margin-top: 10px;
+ }
+ .footer .mid a{
+  margin-left: 24%;
+ }
+ .footer .last a i{
+     font-size: 20px;
+     margin: 2px 10px 5px 10px;
+ }
+}
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .top{
+        width: 100%;
+    }
+ section .hero{
+     padding-bottom: 10%;
+     width: 100%;
+   }
+   section .hero h2{
+    font-size: 40px;
+}
+section .hero p{
+    font-size: 25px;
+}
+section .hero .call{
+    font-size: 22px;
+}
+   section .hero h2, p, .call{
+    margin-bottom: 18px;
+  }
+  .container{
+    height: 105vh;
+    width: 100%;
+    padding-top: 3%;
+  }
+  .cont .about{
+    margin-left: 11%;
+  }
+  .cont .about h2{
+    font-size: 35px;
+}
+.cont .about p{
+    font-size: 20px;
+}
+ .container .cont{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .container .cont .about{
+    margin-bottom: 5px;
+ }
+ .container .photo {
+    width: 470px;
+    margin-right: 5%;
+ }
+ .container .photo img{
+    width: 100%;
+    height: 300px;
+ }
+ .wrapper{
+    padding-top: 7%;
+    padding-bottom: 7%;
+ }
+ .wrapper .wrapper-1{
+    height: 100%;
+    width: 400px;
+    margin-left: 1%;
+ }
+ .wrapper .wrapper-1 img{
+    width: 100%;
+ }
+ .words{
+    width: 100%;
+    height: 60vh;
+ }
+ .words p{
+    width: 85%;
+ }
+ .big-box{
+    width: 100%;
+    padding-top: 2%;
+ }
+ .box-1 .box{
+    margin-right: 4%;
+ }
+ .box-1 .box img{
+    height: 250px;
+    width: 400px;
+}
+.big-box a{
+    font-size: 30px;
+    margin-left: 27%;
+ }
+ .form{
+    width: 100%;
+    height: 102vh;
+  }
+  .form .end{
+     margin-left: 15%;
+  }
+  .form .end h3{
+    font-size: 26px;
+    margin-bottom: 2%;
+  }
+  .form .end p{
+    font-size: 21px;
+  }
+  .form .fill-in{
+     margin-left: 15%;
+  }
+ .form .fill-in input{
+     width: 550px;
+     height: 50px;
+     font-size: 23px;
+ }
+ .form .fill-in label{
+     font-size: 24px;
+ }
+ .form .fill-in .open{
+     width: 550px;
+     height: 200px;
+ }
+ .form .fill-in .click{
+     width: 140px;
+     font-size: 20px;
+ }
+
+.footer{
+    width: 100%;
+    height: 10vh;
+ }
+ .footer .logo-2 h2{
+    font-size: 26px;
+    margin-top: 5px;
+ }
+ .footer .mid a,p{
+    font-size: 18px;
+ }
+ .footer .mid p{
+    margin-top: 10px;
+ }
+ .footer .mid a{
+  margin-left: 24%;
+ }
+ .footer .last a i{
+     font-size: 20px;
+     margin: 2px 10px 5px 10px;
+ }
+}
+
+@media screen and (max-width:650px){
+    body{
+        overflow-x: hidden;
+    }
+    .login{
+        display: none;
+    }
+    .nav-icon{
+        font-size: 25px;
+        display: block;
+        cursor: pointer;
+    }
+    .top{
+       min-width: 100%;
+       height: 10vh;
+    }
+    .top .logo h2{
+        font-size: 22px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+    }
+ section .hero{
+     padding-bottom: 10%;
+     width: 100%;
+   }
+   section .hero h2, p, .call{
+    margin-bottom: 18px;
+  }
+  section .hero h2{
+    font-size: 28px;
+  }
+  section .hero p{
+    font-size: 18px;
+  }
+  section .hero .call{
+    font-size: 14px;
+  }
+  .container{
+    height: 125vh;
+    width: 100%;
+    padding-top: 2%;
+  }
+ .container .cont{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .container .cont .about{
+    margin-left: 10%;
+ }
+ .container .cont .about h2{
+   font-size: 23px;
+ }
+ .container .cont .about p{
+   font-size: 15px;
+ }
+ .container .cont .about button{
+   font-size: 14px;
+ }
+ .container .photo {
+    width: 300px;
+    margin-right: 15%;
+ }
+ .container .photo img{
+    width: 100%;
+    height: 220px;
+ }
+ .wrapper{
+    padding-top: 7%;
+    padding-bottom: 7%;
+ }
+ .wrapper .wrapper-1{
+    height: 100%;
+    width: 280px;
+    margin-left: 3%;
+ }
+ .wrapper .wrapper-1 img{
+    width: 100%;
+ }
+ .words{
+    width: 100%;
+    height: 60vh;
+ }
+ .words p{
+    width: 80%;
+    line-height: 1.5;
+    font-size: 18px;
+ }
+ .big-box{
+    min-width: 100%;
+    padding-top: 2%;
+ }
+ .big-box{
+    width: 100%;
+    padding-top: 2%;
+ }
+ .box-1 .box{
+    margin-right: 4%;
+ }
+ .box-1 .box img{
+    height: 200px;
+    width: 280px;
+}
+.big-box a{
+    font-size: 20px;
+    margin-left: 25%;
+ }
+ .big-box h2{
+    font-size: 20px;
+    margin-left: 15%;
+ }
+.form{
+    padding-top: 0%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 110vh;
+  }
+  .form .end{
+     margin-left: 13%;
+  }
+  .form .end h3{
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+  .form .end p{
+    font-size: 14px;
+  }
+  .form .fill-in{
+     margin-left: 13%;
+  }
+ .form .fill-in input{
+     width: 350px;
+     height: 27px;
+     font-size: 20px;
+ }
+ .form .fill-in label{
+     font-size: 15px;
+ }
+ .form .fill-in .open{
+     width: 350px;
+     height: 150px;
+ }
+ .form .fill-in .click{
+     width: 90px;
+     font-size: 14px;
+ }
+.footer{
+    min-width: 100%;
+    height: 100px;
+}
+.footer{
+    width: 100%;
+    height: 95px;
+ }
+ .footer .logo-2 h2{
+    font-size: 20px;
+    margin-top: 5px;
+ }
+ .footer .mid a,p{
+    font-size: 15px;
+ }
+ .footer .mid p{
+    margin-top: 10px;
+ }
+ .footer .mid a{
+  margin-left: 24%;
+ }
+ .footer .last a i{
+     font-size: 15px;
+     margin: 2px 7px 5px 7px;
+ }
+}
+@media screen  and (max-width: 480px){
+    body{
+        max-width: 100%;
+        min-width: 360px;
+    }
+    .top{
+        width: 100%;
+        height: 9vh;
+    }
+    .top .logo h2{
+        margin-top: 3px;
+    }
+    .login{
+        display: none;
+    }
+    .nav-icon{
+        font-size: 26px;
+        display: block;
+        cursor: pointer;
+    }
+    section{
+        height: 100vh;
+        width: 100%;
+    }
+    section .hero{
+        padding-bottom: 10%;
+        width: 100%;
+      }
+    .container{
+        width: 100%;
+        height: 110vh;
+    }
+    .cont .about{
+        margin-top: 15%;
+        margin-left: 3%;
+    }
+    .container .photo {
+        width: 300px;
+        margin-top: 0%;
+        margin-right: 3%;
+        margin-left: 5%;
+     }
+     .container .photo img{
+        width: 100%;
+        height: 250px;
+     }
+     .wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       margin-left: 0%;
+     }
+     .wrapper .wrapper-1{
+        width: 67%;
+        margin-left: 5%;
+     }
+     .words{
+        width: 100%;
+        height: 56vh;
+     }
+     .words p{
+        width: 90%;
+     }
+     .big-box{
+        width: 100%;
+     }
+     .big-box h2{
+        font-size: 22px;
+        margin-left: 14.5%;
+     }
+     .big-box a{
+        font-size: 22px;
+        margin-left: 16%;
+        cursor: pointer;
+     }
+     .big-box .box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+       margin-left: 0%;
+     }
+     .big-box .box-1 .box img{
+        width: 290px;
+     }
+     .form{
+        padding-top: 0%;
+        padding-bottom: 10%;
+        width: 100%;
+        height: 90vh;
+      }
+      .form .end{
+         margin-left: 12%;
+      }
+      .form .end h3{
+        font-size: 17px;
+        margin-bottom: 2%;
+      }
+      .form .end p{
+        font-size: 13px;
+      }
+      .form .fill-in{
+         margin-left: 13%;
+      }
+     .form .fill-in input{
+         width: 320px;
+         height: 27px;
+         font-size: 20px;
+     }
+     .form .fill-in label{
+         font-size: 15px;
+     }
+     .form .fill-in .open{
+         width: 320px;
+         height: 150px;
+     }
+     .form .fill-in .click{
+         width: 90px;
+         font-size: 13.9px;
+     }
+     .footer{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+     }
+     .footer .logo-2 h2{
+       font-size: 20px;
+       margin-top: 5px;
+    }
+    .footer .mid a,p{
+       font-size: 15px;
+    }
+    .footer .mid a{
+        margin-top: 3px;
+    }
+    .footer .mid p{
+        margin-bottom: 0px;
+    }
+    .footer .last a i{
+        font-size: 20px;
+        margin: 2px 10px 5px 10px;
+    }
+}
+@media screen  and (max-width: 360px){
+    .top{
+        width: 100%;
+        height: 10vh;
+    }
+    .top .logo h2{
+        margin-top: 2px;
+        text-align: center;
+    }
+    section{
+        height: 100vh;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 120vh;
+    }
+    .container .cont .photo {
+       margin-top: 0%;
+       margin-left: 5%;
+     }
+    .container .cont .about {
+       margin-top: 2%;
+       margin-left: 5%;
+     }
+    .container .photo img{
+        width: 270px;
+        height: 240px;
+     }
+     .wrapper{
+        width: 100%;
+     }
+     .wrapper .wrapper-1{
+        width: 270px;
+     }
+     .words{
+        height: 70vh;
+     }
+     .words p{
+        width: 90%;
+     }
+     .big-box {
+        width: 100%;
+     }
+     .big-box h2{
+        font-size: 19.5px;
+        margin-left: 10%;
+     }
+     .big-box .box-1 .box img{
+        width: 270px;
+     }
+     .big-box a{
+        font-size: 20px;
+        margin-left: 13%;
+        cursor: pointer;
+     }
+     .form{
+        width: 100%;
+        height: 82vh;
+      }
+      .form .end{
+         margin-left: 10%;
+         margin-top: 10%;
+         margin-bottom: 0%;
+      }
+      .form .end p{
+        font-size: 12px;
+      }
+      .form .fill-in{
+         margin-left: 10%;
+      }
+     .form .fill-in input{
+         width: 300px;
+     }
+     .form .fill-in .open{
+         width: 300px;
+     }
+     .footer{
+        width: 100%;
+     }
+     .footer .logo-2 h2{
+        font-size: 20px;
+        margin-top: 5px;
+     }
+     .footer .mid a,p{
+        font-size: 14px;
+     }
+     .footer .last a i{
+         font-size: 20px;
+         margin: 2px 10px 5px 10px;
+     }
+}
+@media screen  and (max-width: 320px){
+    .top{
+        width: 100%;
+        height: 13vh;
+    }
+    .top .logo h2{
+        margin-top: 1px;
+        text-align: center;
+    }
+    section{
+        height: 120vh;
+        width: 100%;
+    }
+    section .hero h2{
+        font-size: 25.8px;
+    }
+    section .hero p{
+        font-size: 18px;
+    }
+    .container{
+        width: 100%;
+        height: 175vh;
+    }
+    .words{
+        height: 90vh;
+    }
+    .words p{
+        width: 90%;
+    }
+    .form{
+        padding-top: 0%;
+        padding-bottom: 10%;
+        width: 100%;
+        height: 110vh;
+      }
+      .form .end{
+         margin-left: 10%;
+      }
+      .form .end h3{
+        font-size: 16px;
+        margin-bottom: 2%;
+      }
+      .form .end p{
+        font-size: 12px;
+      }
+      .form .fill-in{
+         margin-left: 10%;
+      }
+     .form .fill-in input{
+         width: 290px;
+         height: 27px;
+         font-size: 20px;
+     }
+     .form .fill-in label{
+         font-size: 15px;
+     }
+     .form .fill-in .open{
+         width: 290px;
+         height: 150px;
+     }
+     .form .fill-in .click{
+         width: 90px;
+         font-size: 13.9px;
+     }
+    .footer{
+        height: 27vh;
+        width: 100%;
+    }
+    .footer .last a i{
+        font-size: 20px;
+        margin: 2px 10px 5px 10px;
+    }
+}
